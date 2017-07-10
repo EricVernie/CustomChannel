@@ -1,0 +1,9 @@
+C:\Experimentation\CustomChannel\WebChatClient\bin\Release\netcoreapp1.1\WebChatClient.deps.json
+C:\Experimentation\CustomChannel\WebChatClient\bin\Release\netcoreapp1.1\WebChatClient.runtimeconfig.json
+C:\Experimentation\CustomChannel\WebChatClient\bin\Release\netcoreapp1.1\WebChatClient.runtimeconfig.dev.json
+C:\Experimentation\CustomChannel\WebChatClient\bin\Release\netcoreapp1.1\WebChatClient.dll
+C:\Experimentation\CustomChannel\WebChatClient\bin\Release\netcoreapp1.1\WebChatClient.pdb
+C:\Experimentation\CustomChannel\WebChatClient\obj\Release\netcoreapp1.1\WebChatClient.csprojResolveAssemblyReference.cache
+C:\Experimentation\CustomChannel\WebChatClient\obj\Release\netcoreapp1.1\WebChatClient.AssemblyInfo.cs
+C:\Experimentation\CustomChannel\WebChatClient\obj\Release\netcoreapp1.1\WebChatClient.dll
+C:\Experimentation\CustomChannel\WebChatClient\obj\Release\netcoreapp1.1\WebChatClient.pdb

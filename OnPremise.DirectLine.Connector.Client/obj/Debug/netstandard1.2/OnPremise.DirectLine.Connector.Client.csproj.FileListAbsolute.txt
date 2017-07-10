@@ -1,0 +1,9 @@
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\bin\Debug\netstandard1.2\OnPremise.DirectLine.Connector.Client.deps.json
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\obj\Debug\netstandard1.2\OnPremise.DirectLine.Connector.Client.csprojResolveAssemblyReference.cache
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\obj\Debug\netstandard1.2\OnPremise.DirectLine.Connector.Client.AssemblyInfo.cs
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\bin\Debug\netstandard1.2\OnPremise.DirectLine.Connector.Client.dll
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\bin\Debug\netstandard1.2\OnPremise.DirectLine.Connector.Client.pdb
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\bin\Debug\netstandard1.2\OnPremise.DirectLine.DataModel.dll
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\bin\Debug\netstandard1.2\OnPremise.DirectLine.DataModel.pdb
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\obj\Debug\netstandard1.2\OnPremise.DirectLine.Connector.Client.dll
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Client\obj\Debug\netstandard1.2\OnPremise.DirectLine.Connector.Client.pdb

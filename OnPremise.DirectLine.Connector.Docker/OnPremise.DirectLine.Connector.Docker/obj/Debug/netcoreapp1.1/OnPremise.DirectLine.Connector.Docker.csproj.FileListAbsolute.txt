@@ -1,0 +1,11 @@
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\bin\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.deps.json
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\bin\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.runtimeconfig.json
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\bin\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.runtimeconfig.dev.json
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\bin\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.dll
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\bin\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.pdb
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\bin\Debug\netcoreapp1.1\OnPremise.DirectLine.DataModel.dll
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\bin\Debug\netcoreapp1.1\OnPremise.DirectLine.DataModel.pdb
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\obj\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.csprojResolveAssemblyReference.cache
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\obj\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.AssemblyInfo.cs
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\obj\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.dll
+C:\Experimentation\CustomChannel\OnPremise.DirectLine.Connector.Docker\OnPremise.DirectLine.Connector.Docker\obj\Debug\netcoreapp1.1\OnPremise.DirectLine.Connector.Docker.pdb

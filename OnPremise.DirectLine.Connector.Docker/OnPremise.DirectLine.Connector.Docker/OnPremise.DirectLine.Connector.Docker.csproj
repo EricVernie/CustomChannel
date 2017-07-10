@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Controllers\ConversationsController.cs" Link="Controllers\ConversationsController.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Program.cs" Link="Program.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Services\AuthenticationHelper.cs" Link="Services\AuthenticationHelper.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Services\ConfigurationHelper.cs" Link="Services\ConfigurationHelper.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Services\ConnectorHelper.cs" Link="Services\ConnectorHelper.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Services\HttpHelper.cs" Link="Services\HttpHelper.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Services\JwtToken.cs" Link="Services\JwtToken.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Services\RequestHelper.cs" Link="Services\RequestHelper.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Services\SessionHelper.cs" Link="Services\SessionHelper.cs" />
+    <Compile Include="..\..\OnPremise.DirectLine.Connector\Startup.cs" Link="Startup.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Services\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\OnPremise.DirectLine.DataModel\OnPremise.DirectLine.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>

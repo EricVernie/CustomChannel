@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "WebChat";
+}
+<h2>@ViewData["Author"].</h2>
+
+
+<link href="https://unpkg.com/botframework-webchat/botchat.css" rel="stylesheet" />
+
+<div id="bot" />
+<script src="https://unpkg.com/botframework-webchat/botchat.js"></script>
+<!--<script src="http://localhost:8041/TestBot.js"></script>-->
+<script>
+      BotChat.App({
+          directLine: {
+              //secret: 'ZeTrWOeuUIE.cwA.Ilw.kcLHOauyIPEpV4ktRnbI47qx_J9ZneHhdg21MEyNTR4',              
+              token:'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjlGWERwYmZNRlQyU3ZRdVhoODQ2WVR3RUlCdyIsImtpZCI6IjlGWERwYmZNRlQyU3ZRdVhoODQ2WVR3RUlCdyJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDcvIiwiaWF0IjoxNDk5MjY0Mzk2LCJuYmYiOjE0OTkyNjQzOTYsImV4cCI6MTQ5OTI2ODI5NiwiYWlvIjoiWTJaZ1lQaiswZS9ILysyZkxrZkVzYTVjNTlzdkJnQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJFdkV0dWRlQm90IiwiYXBwaWQiOiIyODE0MWViNS00ODI4LTRlZmYtODIxMC1mNThjNTNhOGRmZTQiLCJhcHBpZGFjciI6IjEiLCJpZHAiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDcvIiwidGlkIjoiNzJmOTg4YmYtODZmMS00MWFmLTkxYWItMmQ3Y2QwMTFkYjQ3IiwidXRpIjoiaTBfWGxZaHF0a0s1cFhiVmR4MEVBQSIsInZlciI6IjEuMCJ9.WaTdEhi9ris1sHpRVMzofQ9mqYS7JbrAy_jsN76lIKmFz5jn9Bzd5KJgvVw225b-ky-p7bapytg6oOBzgPVWGvOPxTFLHS_qakcYrA3ggrwZDQBtEjqZbep5wrk6Q9lEFOaJUkbqnaNogSsY75QwZSf3L6XgxDOCa5_qV4pjzB_1mN2kgfE_mrBGiWnueDVYBEQ7mHvAN8ibdxCsruUHNW_wT9W-F00TymxfjyM3tiAcUAUlnHlGgq_YxPeMSRbM4YM0mc2mwN67_Qs8yGHmenFL1jfBFDUmh8WSmXZ1qIG9UjUrySdmPGoTkOnRSwnZS-LLEyLcV4Bq41k-nW4sMQ',
+              //domain: 'http://localhost:28321/v3/directline',
+              domain: 'http://evetudeemulatorserverbot.azurewebsites.net/v3/directline',
+              webSocket: false},
+          user: { id: 'default-user', name:'User'},
+
+        bot: { id: 'EVETUDEBOT' },
+        resize: 'detect',
+
+      }, document.getElementById("bot"));
+</script>
