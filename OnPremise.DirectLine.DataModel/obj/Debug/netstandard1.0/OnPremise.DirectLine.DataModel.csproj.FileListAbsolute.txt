@@ -1,7 +1,0 @@
-C:\Experimentation\CustomChannel\OnPremise.DirectLine.DataModel\bin\Debug\netstandard1.0\OnPremise.DirectLine.DataModel.deps.json
-C:\Experimentation\CustomChannel\OnPremise.DirectLine.DataModel\bin\Debug\netstandard1.0\OnPremise.DirectLine.DataModel.dll
-C:\Experimentation\CustomChannel\OnPremise.DirectLine.DataModel\bin\Debug\netstandard1.0\OnPremise.DirectLine.DataModel.pdb
-C:\Experimentation\CustomChannel\OnPremise.DirectLine.DataModel\obj\Debug\netstandard1.0\OnPremise.DirectLine.DataModel.AssemblyInfo.cs
-C:\Experimentation\CustomChannel\OnPremise.DirectLine.DataModel\obj\Debug\netstandard1.0\OnPremise.DirectLine.DataModel.dll
-C:\Experimentation\CustomChannel\OnPremise.DirectLine.DataModel\obj\Debug\netstandard1.0\OnPremise.DirectLine.DataModel.pdb
-C:\Experimentation\CustomChannel\OnPremise.DirectLine.DataModel\obj\Debug\netstandard1.0\OnPremise.DirectLine.DataModel.csprojResolveAssemblyReference.cache
