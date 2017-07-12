@@ -65,6 +65,7 @@ namespace OnPremise.DirectLine.Connector.Services
 
         public static async Task<string> GetJwtTokenAsync(string msaAppId, string msaPassword)
         {
+            HttpHelper.InitHttpClient();
             try
             {
                 if (string.IsNullOrEmpty(_accessToken))

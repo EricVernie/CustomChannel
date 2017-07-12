@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxwIiGNNba0eFow9STK5legAAAAACAAAAAAADZgAAwAAAABAAAAB3reByAMMlbHj760fPIgjdAAAAAASAAACgAAAAEAAAALiC2vfZ2AXQ6nfBiy58pnqAAAAAK47qvdolKVeNaP5gRWkCB4x7EGqt9kJJFEkqK4vRFqjHmjr/iaABH7Tn0GKeephcfJavWriNqp8lJXCknCQnP+JlaKWBa6/iJk7AJwAyHFazhq+BJxw0x0OY2kYoQUsm9N6K/CUHRosUVSijWR4OLkhjIbb8mXDfCV3osjVrpt0UAAAAcRumkoTeALU2K0Ue4nyln7SsH1I=</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxwIiGNNba0eFow9STK5legAAAAACAAAAAAADZgAAwAAAABAAAAArUZAj2rJJfzROuEZobdi/AAAAAASAAACgAAAAEAAAAAkPgX09a8pOULT5ptAKhqiAAAAAmzX6/jgPpYInLf9XyOZdnk2Qo3Nba2VYeFrYvC31yVJPnbUsg6D/yEU4ZzxpweMJt/JcN3M8rbrw+div5HgMRBn3qxgIRqInX8DF0vSTGe/XRUsk+ScVEVIsSHGxvgOYyrsD+KctGsNAPaMFoXWJKJHQfwa6wlnd45r2TFbutKIUAAAA8MDixiFhU55m6dVsFY7DMvF+5fs=</EncryptedPassword>
     <_NewBackgroundProfile>True</_NewBackgroundProfile>
   </PropertyGroup>
 </Project>

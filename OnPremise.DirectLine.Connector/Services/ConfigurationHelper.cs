@@ -33,6 +33,7 @@ namespace OnPremise.DirectLine.Connector.Services
         {
             var config = Configuration.GetSection(key);
             return "http://localhost:3979/api/messages";
+            //return "https://evetudebot.azurewebsites.net/api/messages";
         }
 
     }

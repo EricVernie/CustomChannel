@@ -48,9 +48,10 @@ namespace OnPremise.DirectLine.Connector
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy",
-                    builder => builder.AllowAnyOrigin() 
+                    builder => builder.AllowAnyMethod()
                     .AllowAnyHeader()
-                    .WithMethods("GET","POST")
+                    .AllowCredentials()
+                    .AllowAnyOrigin()
                     );
             });
 

@@ -157,6 +157,10 @@ namespace OnPremise.DirectLine.Connector.Services
         private static T GetData<T>(ISession session, string key)
         {
             T t = default(T);
+            if (session == null)
+            {
+                return t;
+            }
             string data = session.GetString(key);
             
             if (data == null)

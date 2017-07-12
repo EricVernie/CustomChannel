@@ -40,13 +40,21 @@ namespace OnPremise.DirectLine.Connector.Services
         private static HttpClient _instance;
         // public static HttpClient Instance => _instance ?? (_instance = new HttpClient());
         public static HttpClient Instance { get { return _instance; } }
-        public static void InitHttpClient(HttpRequest context)
+        public static void InitHttpClientWithAuthorizationHeader(HttpRequest context)
         {
              if (_instance == null)
             {
                 _instance = new HttpClient();
                 var accessTokenResult = GetTokenFromHeader(context);
                 _instance.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(accessTokenResult.Item1, accessTokenResult.Item2);                
+            }
+        }
+        public static void InitHttpClient()
+        {
+            if (_instance == null)
+            {
+                _instance = new HttpClient();
+               
             }
         }
 

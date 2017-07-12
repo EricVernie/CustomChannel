@@ -32,13 +32,16 @@ namespace OnPremise.DirectLine.Connector.Controllers
         {            
             return "{'author':'(c) Eric Vernié','date' :'July 2017'}";
         }
-       
 
+      
         [HttpPost]
         [Route("conversations")]
         public async Task<IActionResult> StartWebChatConversationAsync()
         {
-           
+            if (this.Request.IsMethodOptions())
+            {
+                return this.Ok();
+            }
             string botUrl = ConfigurationHelper.GetOption("Bot");
             ActiveBot currentBot = ActiveBot.CreateActiveBot(botUrl); 
             
@@ -59,7 +62,7 @@ namespace OnPremise.DirectLine.Connector.Controllers
             this.HttpContext.Session.InitSession(activeBot);
             this.HttpContext.Session.InitWatermark(activeBot.Conversation.ConversationId);
             this.HttpContext.Session.SaveConversationForCurrentUser(activeBot.Conversation);
-            HttpHelper.InitHttpClient(this.Request);
+            HttpHelper.InitHttpClientWithAuthorizationHeader(this.Request);
             await HttpHelper.PostActivityAsync(activity, this.Request, activeBot.ServiceUrl);
             return this.Created(activity.ServiceUrl, activeBot.Conversation);
             
@@ -67,7 +70,7 @@ namespace OnPremise.DirectLine.Connector.Controllers
 
         [HttpPost]
         [Route("conversations/{conversationId}/activities")]
-        public async Task<ActivityId> SendMessageAsync([FromBody] Activity activity,string conversationId)
+        public async Task<IActionResult> SendMessageAsync([FromBody] Activity activity,string conversationId)
         {
 
             activity.Id = Guid.NewGuid().ToString();
@@ -82,7 +85,7 @@ namespace OnPremise.DirectLine.Connector.Controllers
             await HttpHelper.PostActivityAsync(activity, this.Request, botUrl);
             ActivityId activityId = new ActivityId { Id = activity.Id };
             
-            return activityId;
+            return this.Ok(activityId);
         }
 
        
@@ -91,7 +94,10 @@ namespace OnPremise.DirectLine.Connector.Controllers
         [Route("conversations/{conversationId}/activities")]
         public IActionResult GetWatermark([FromQuery] int? watermark, string conversationId)
         {
-                        
+            if (this.Request.IsMethodOptions())
+            {
+                return this.Ok();
+            }
             int watermarkId = 0;
             if (watermark.HasValue)
             {

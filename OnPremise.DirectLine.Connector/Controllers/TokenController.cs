@@ -24,14 +24,14 @@ namespace OnPremise.DirectLine.Connector.IISExpress.Controllers
 
         [HttpPost]
         [Route("v3/directline/tokens/generate")]
-        public async Task<string> GenerateToken()
+        public async Task<IActionResult> GenerateToken()
         {
             //TODO: Get The token here :-)
 
             //TODO: put in config
             var MicrosoftAppId = "28141eb5-4828-4eff-8210-f58c53a8dfe4";
             var MicrosoftAppPassword = "khzA1WykDWUb6gOXpuQ7GtV";
-            return await AuthenticationHelper.GetJwtTokenAsync(MicrosoftAppId, MicrosoftAppPassword);
+            return this.Ok(await AuthenticationHelper.GetJwtTokenAsync(MicrosoftAppId, MicrosoftAppPassword));
 
         }
     }
